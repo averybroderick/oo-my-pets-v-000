@@ -1,5 +1,3 @@
-require 'pry'
-
 class Owner
 
   attr_accessor :pets, :name
@@ -69,7 +67,6 @@ class Owner
       puts pet_type
        pet_type.map{|pet| pet.mood = "nervous"}
        puts pet
-       binding.pry
      end
   end
 
