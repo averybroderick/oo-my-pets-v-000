@@ -31,7 +31,7 @@ class Owner
 
   #INSTANCE METHODS
 
-  def species
+  def say_species
     @species
   end
 
