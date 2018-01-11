@@ -32,7 +32,7 @@ class Owner
   #INSTANCE METHODS
 
   def say_species
-    @species
+    "I am a #{@species}"
   end
 
 end
