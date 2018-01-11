@@ -66,5 +66,6 @@ class Owner
     @pets.each do |pet_type|
     puts pet_type
   end
+  end
 
 end
