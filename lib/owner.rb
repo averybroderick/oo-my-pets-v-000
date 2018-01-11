@@ -63,7 +63,7 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do |pet_type|
+    @pets.each do |pet|
     puts pet_type
   end
   end
